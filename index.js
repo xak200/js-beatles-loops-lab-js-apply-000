@@ -6,7 +6,7 @@ function theBeatlesPlay(musicians, instruments) {
   //   statements.push(`${musicians[i]} plays ${instruments[i]}`);
   // }
   musicians.forEach(function (item, index)) {
-    
+    statements.push(`${musicians[index]} plays ${instruments[index]}`);
   }
   return statements;
 }
@@ -29,5 +29,5 @@ every fact. The function should return an array of strings with exclamation
 points.*/
 
 function johnLennonFacts(factsArr) {
-  while ()
+  // while ()
 }
