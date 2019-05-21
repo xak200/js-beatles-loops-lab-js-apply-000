@@ -31,6 +31,7 @@ function johnLennonFacts(factsArr) {
     factsArr[counter] = factsArr[counter] + "!!!";
     counter++;
   }
+  return factsArr;
 }
 
 /* + Create a function `iLoveTheBeatles` which accepts a number as a parameter. The
