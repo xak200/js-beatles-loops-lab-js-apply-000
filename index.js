@@ -25,13 +25,13 @@ Use a while loop to loop over the facts array and add `"!!!"` to the end of
 every fact. The function should return an array of strings with exclamation
 points.*/
 
-// function johnLennonFacts(factsArr) {
-//   let counter = 0;
-//   while (counter < factsArr.length) {
-//     factsArr[counter] = factsArr[counter] + "!!!";
-//     counter++;
-//   }
-// }
+function johnLennonFacts(factsArr) {
+  let counter = 0;
+  while (counter < factsArr.length) {
+    factsArr[counter] = factsArr[counter] + "!!!";
+    counter++;
+  }
+}
 
 /* + Create a function `iLoveTheBeatles` which accepts a number as a parameter. The
 body of the function should create a variable that stores an empty array. Then,
@@ -47,4 +47,5 @@ function iLoveTheBeatles(number) {
     love.push('I love the Beatles!');
     number++;
   } while (number < 15);
+  return love;
 }
