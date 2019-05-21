@@ -31,4 +31,5 @@ function johnLennonFacts(factsArr) {
     factsArr[counter] += "!!!";
     counter++;
   }
+  print (factsArr);
 }
