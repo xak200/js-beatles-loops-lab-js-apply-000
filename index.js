@@ -26,5 +26,9 @@ every fact. The function should return an array of strings with exclamation
 points.*/
 
 function johnLennonFacts(factsArr) {
-  // while ()
+  let counter = 0;
+  while (counter < factsArr.length) {
+    factsArr[counter] += "!!!";
+    counter++;
+  }
 }
