@@ -44,6 +44,7 @@ number is less than `15`. The function should return the array with the strings
 function iLoveTheBeatles(number) {
   const love = [];
   do {
-    
-  } while ();
+    love.push('I love the Beatles!');
+    number++;
+  } while (number < 15);
 }
