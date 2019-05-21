@@ -32,5 +32,3 @@ function johnLennonFacts(factsArr) {
     counter++;
   }
 }
-
-johnLennonFacts(['hi']);
