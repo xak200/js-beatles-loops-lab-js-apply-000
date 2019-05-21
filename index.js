@@ -31,7 +31,7 @@ function johnLennonFacts(factsArr) {
     factsArr[counter] = factsArr[counter] + "!!!";
     counter++;
   }
-  print (factsArr);
+  console.log(factsArr);
 }
 
 johnLennonFacts(['hi']);
