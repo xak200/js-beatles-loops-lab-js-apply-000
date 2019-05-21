@@ -28,7 +28,7 @@ points.*/
 function johnLennonFacts(factsArr) {
   let counter = 0;
   while (counter < factsArr.length) {
-    factsArr[counter] = "!!!";
+    factsArr[counter] = factsArr[counter]"!!!";
     counter++;
   }
 }
