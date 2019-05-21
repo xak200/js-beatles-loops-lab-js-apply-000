@@ -2,9 +2,9 @@
 
 function theBeatlesPlay(musicians, instruments) {
   const statements = [];
-  musicians.forEach(function (item, index) {
-    statements.push(`${musicians[index]} plays ${instruments[index]}`);
-  });
+  for (let i = 0; i < musicians.length; i++) {
+    statements.push(`${musicians[i]} plays ${instruments[i]}`);
+  }
   return statements;
 }
 
