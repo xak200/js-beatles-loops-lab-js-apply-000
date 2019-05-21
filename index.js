@@ -33,3 +33,5 @@ function johnLennonFacts(factsArr) {
   }
   print (factsArr);
 }
+
+johnLennonFacts(['hi']);
